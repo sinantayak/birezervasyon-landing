@@ -135,6 +135,12 @@ section {
   font-family: "Avenir-Black", sans-serif;
   font-size: 1.25rem;
 }
+.c1-firstrow h4{
+  font-size: 1.3rem;
+  font-family: "Avenir-Black", sans-serif;
+  padding-top: 1rem;
+  color: #94A2B3;
+}
 .dotted-separator {
   margin-top: 5rem;
   background-image: url(../img/Group\ 78.png);
