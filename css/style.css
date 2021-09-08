@@ -1,25 +1,27 @@
 /*-- Body Reset --*/
+
 body {
-  overflow-x: hidden;
   font-family: "Avenir-Book", sans-serif;
   color: #616971;
-
 }
+
 section {
-  height: 100vh;
-  display: flex;
+  margin-bottom: 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 @font-face {
   font-family: "Avenir-Black";
   src: url(../fonts/avenir_ff/AvenirLTStd-Black.otf);
 }
+
 @font-face {
   font-family: "Avenir-Book";
   src: url(../fonts/avenir_ff/AvenirLTStd-Book.otf);
 }
+
 @font-face {
   font-family: "Avenir-Roman";
   src: url(../fonts/avenir_ff/AvenirLTStd-Roman.otf);
@@ -28,6 +30,7 @@ section {
 /*============= TOP BAR HEADER =============*/
 
 /*============= NAVIGATION =============*/
+
 .navbar {
   padding: 2rem;
   color: black;
@@ -37,6 +40,7 @@ section {
   width: 100%;
   transition: all 0.4s ease-in;
 }
+
 .navbar-brand img {
   width: 15vw;
 }
@@ -51,17 +55,21 @@ section {
 .navbar-nav .nav-item .nav-link {
   color: #94a2b3;
 }
+
 .navbar-nav .nav-item .nav-link:hover {
   color: #ed008c;
 }
 
 /*============= MAİN =============*/
+
 .main {
   background-color: white;
 }
+
 .main .row {
   height: 100vh;
 }
+
 .main .row {
   display: flex;
   justify-content: center;
@@ -69,11 +77,13 @@ section {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
 .main .main-imagebox {
   margin-top: 5rem;
   position: relative;
   z-index: 4;
 }
+
 .main-textbox {
   display: flex;
   flex-direction: column;
@@ -82,25 +92,36 @@ section {
   align-items: flex-end;
   align-content: flex-end;
 }
+
 .main-textbox h2 {
   color: #ed008c;
+  font-size: 3rem;
 }
+
 .main-textbox h3 {
+  font-size: 3rem;
   color: #2b3ba1;
   font-weight: 900;
   font-weight: bold;
   font-family: "Avenir-Black", sans-serif;
 }
+
 .main-textbox h4 {
+  font-size: 2rem;
   color: #707070;
 }
+
 .main-textbox h5 {
+  font-size: 1.5rem;
   color: #707070;
-  width: 60%;
+  width: 80%;
 }
+
 .main-textbox .storebox img {
   width: 150px;
+  margin-top: 3rem;
 }
+
 .abs-img-1 {
   position: absolute;
   bottom: 0;
@@ -108,71 +129,89 @@ section {
   transform: translateX(50%);
   z-index: 5;
 }
+
 .abs-img-1 img {
   width: 250px;
 }
+
 .main-background {
   position: absolute;
   left: 0;
   bottom: 0;
 }
+
 .main-background img {
   width: 50vw;
 }
+
 /*---Content-1 --*/
+
 .c1-firstrow {
   margin-top: 5rem;
 }
+
 .c1-firstrow .col {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
+
 .c1-firstrow .col h2 {
   padding: 1rem 0 1rem 0;
   font-weight: 900;
   font-family: "Avenir-Black", sans-serif;
   font-size: 1.25rem;
 }
-.c1-firstrow h4{
+
+.c1-firstrow h4 {
   font-size: 1.3rem;
   font-family: "Avenir-Black", sans-serif;
   padding-top: 1rem;
   color: #94A2B3;
 }
+
 .dotted-separator {
   margin-top: 5rem;
   background-image: url(../img/Group\ 78.png);
   height: 10vh;
 }
+
 .w-75 {
   width: 75%;
   margin: auto;
   display: flex;
 }
+
 .c1-textbox {
   width: 80%;
 }
+
 .c1-textbox h4 {
   text-align: left;
   padding-top: 2rem;
 }
+
 .c1-textbox h5 {
   text-align: justify;
   padding-top: 1rem;
   font-size: 0.9rem;
 }
+
 .before-last-child {
   margin-top: 1rem !important;
 }
+
 .last-child {
   margin-top: 5rem !important;
 }
+
 .pink-offer-button {
   margin: auto;
   margin-top: 5rem;
+  font-size: 1.5rem;
 }
+
 .pink-offer-button button {
   background-color: #ed008c;
   border: none;
@@ -182,13 +221,16 @@ section {
   color: white;
   font-weight: 900;
 }
+
 /*-- Content-1 --*/
 
 /*-- Content-2 --*/
+
 .content-2 {
   background: rgb(237, 0, 140);
   background: linear-gradient(180deg, rgba(237, 0, 140, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
+
 .textbox-col {
   display: flex;
   flex-direction: column;
@@ -197,20 +239,23 @@ section {
   align-items: center;
   color: white;
 }
+
 .c2-textbox h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 900;
 }
 
 .c2-textbox h3 {
   position: relative;
-  font-size: 1.65rem;
+  font-size: 2rem;
   font-weight: 900;
 }
+
 .c2-textbox h4 {
   text-align: right;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
+
 .c2-textbox h4:last-child {
   text-align: right;
 }
@@ -221,6 +266,7 @@ section {
   justify-content: flex-end;
   align-items: flex-end;
 }
+
 .c2-textbox .storebox img {
   width: 200px;
 }
@@ -228,41 +274,49 @@ section {
 .c2-textbox .storebox img:last-child {
   margin-left: 1rem;
 }
+
 /*-- Content-2--*/
+
 /*-- Content-3--*/
+
 .content-3-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: auto;
-
   padding: 3rem 0rem 3rem 0rem;
 }
+
 .content-3-header h2 {
   color: #ed008c;
   font-weight: 800;
-  
   font-family: "Avenir-Black", sans-serif;
 }
+
 .content-3 h4 {
   color: #ed008c;
   font-weight: 600;
 }
+
 .content-3-2 h4 {
   color: #ed008c;
   font-weight: 600;
 }
+
 .content-3 p {
   padding-top: 1rem;
 }
+
 .c3-inline-img {
   width: 5vw;
   padding-right: 1rem;
 }
+
 .c3-textandimgbox {
   padding-top: 1rem;
 }
+
 .bi-background {
   left: 0;
   top: 0;
@@ -276,16 +330,128 @@ section {
   justify-content: center;
   align-items: center;
 }
+
 .bi-background .bi-logo {
   width: 35px;
   height: 35px;
 }
+
 /*-- Content-3-*/
 
+/*-- Content-4-*/
+
+.list-box li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-bottom: 1.25rem;
+  font-size: 1rem;
+  font-family: "Avenir-Book", sans-serif;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.list-box .bi-list {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  box-shadow: 2px 2px darkgrey;
+  margin-right: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-box .bi-list img {
+  width: 30px;
+  height: 30px;
+}
+
+.c4-titlebox {
+  padding: 5rem 0 5rem 0;
+  color: #94A2B3;
+}
+
+.c4-titlebox strong {
+  font-family: "Avenir-Black", sans-serif;
+}
+
+.c4-textbox h2 {
+  color: #ed008c;
+}
+
+/*-- Content-4-*/
+ .aphone {
+  width: 700px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+}
+
+ .pinkpath {
+  z-index: 2;
+  position: relative;
+  background: rgb(237, 0, 140);
+  background: linear-gradient(180deg, rgba(237, 0, 140, 1) 0%, rgba(199, 0, 118, 1) 35%, rgba(197, 0, 117, 1) 69%, rgba(119, 0, 70, 1) 100%);
+  width: 100%;
+  height: 200px;
+  margin-top: 300px;
+}
+
+ .pinkpath2 {
+  z-index: 2;
+  position: relative;
+  background: rgb(212,3,126);
+  background: linear-gradient(180deg, rgba(212,3,126,1) 0%, rgba(255,100,191,1) 74%);
+  width: 100%;
+  height: auto;
+}
+
+ .pinkpath2 ul {
+  padding: 30px;
+  color: white;
+}
+ .pinkpath2 h2 {
+
+  font-size: 14px;
+}
+
+
+ .pinkpath2 img {
+  padding-right: 20px;
+}
+
+ .iphonebottom {
+  padding-top: 60px;
+  width: 100%;
+  height: auto;
+}
+
+ .androidbottom {
+  padding-top: 60px;
+  width: 100%;
+  height: auto;
+}
+
+ .pink-text {
+  font-size: 25px;
+  width: 700px;
+  color: white;
+  text-align: right;
+  padding: 50px;
+}
+.footer li{
+  font-size: 12px;
+}
+footer col{
+  padding: 0 !important;
+}
 /*===== FIXED BACKGROUND IMG =====*/
 
 .fixed-background {
-  overflow: hidden; /*-- Correction for iOS --*/
+  overflow: hidden;
+  /*-- Correction for iOS --*/
 }
 
 /*-- Emoji Navbar --*/
@@ -297,10 +463,14 @@ section {
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
-@media (max-width: 1199.98px) {
-}
+
+@media (max-width: 1199.98px) {}
+
 /* Devices under 768px (md) */
+
 @media (max-width: 767.98px) {
+
+
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
@@ -323,18 +493,20 @@ Extra (xl) large devices (large desktops, 1200px and up)
 =============*/
 
 /*-- Bootstrap Mobile Gutter Fix --*/
-.row,
-.container-fluid {
+
+.row, .container-fluid {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
 
 /*-- Fixed Background Image --*/
+
 .fixed-background {
   position: relative;
   width: 100%;
   z-index: 1000 !important;
 }
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -344,6 +516,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   height: 100%;
   z-index: -999 !important;
 }
+
 .fixed {
   z-index: -999 !important;
   display: block;
