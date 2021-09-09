@@ -173,6 +173,7 @@ section {
 
 .dotted-separator {
   margin-top: 5rem;
+  margin-bottom: 5rem;
   background-image: url(../img/Group\ 78.png);
   height: 10vh;
 }
@@ -193,9 +194,8 @@ section {
 }
 
 .c1-textbox h5 {
-  text-align: justify;
   padding-top: 1rem;
-  font-size: 0.9rem;
+  font-size: 1.24rem;
 }
 
 .before-last-child {
@@ -229,6 +229,7 @@ section {
 .content-2 {
   background: rgb(237, 0, 140);
   background: linear-gradient(180deg, rgba(237, 0, 140, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  padding: 1rem;
 }
 
 .textbox-col {
@@ -243,17 +244,23 @@ section {
 .c2-textbox h2 {
   font-size: 3rem;
   font-weight: 900;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .c2-textbox h3 {
   position: relative;
   font-size: 2rem;
   font-weight: 900;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .c2-textbox h4 {
   text-align: right;
   font-size: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .c2-textbox h4:last-child {
@@ -268,7 +275,7 @@ section {
 }
 
 .c2-textbox .storebox img {
-  width: 200px;
+  width: 150px;
 }
 
 .c2-textbox .storebox img:last-child {
@@ -292,6 +299,12 @@ section {
   color: #ed008c;
   font-weight: 800;
   font-family: "Avenir-Black", sans-serif;
+}
+
+.content-3-header h5 {
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .content-3 h4 {
@@ -351,6 +364,10 @@ section {
   justify-content: flex-start;
 }
 
+.content-4 {
+  margin-bottom: 0;
+}
+
 .list-box .bi-list {
   height: 50px;
   width: 50px;
@@ -361,6 +378,7 @@ section {
   margin-right: 25px;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 
 .list-box .bi-list img {
@@ -382,71 +400,87 @@ section {
 }
 
 /*-- Content-4-*/
- .aphone {
-  width: 700px;
-  height: auto;
-  position: absolute;
-  z-index: 0;
-}
 
- .pinkpath {
-  z-index: 2;
+.aphone {
+  width: 100%;
+  position: relative;
+  transform: translateY(50%);
+}
+.circle{
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid rgb(255, 210, 8);
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+}
+.circle2{
+  width: 55px;
+  height: 55px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid rgb(255, 210, 8);
+  position: absolute;
+  bottom: 0;
+  transform: translate(150%,400%);
+}
+.pinkpath {
   position: relative;
   background: rgb(237, 0, 140);
   background: linear-gradient(180deg, rgba(237, 0, 140, 1) 0%, rgba(199, 0, 118, 1) 35%, rgba(197, 0, 117, 1) 69%, rgba(119, 0, 70, 1) 100%);
   width: 100%;
-  height: 200px;
-  margin-top: 300px;
+  height: auto;
 }
 
- .pinkpath2 {
-  z-index: 2;
+.pinkpath2 {
   position: relative;
-  background: rgb(212,3,126);
-  background: linear-gradient(180deg, rgba(212,3,126,1) 0%, rgba(255,100,191,1) 74%);
+  background: rgb(212, 3, 126);
+  background: linear-gradient(180deg, rgba(212, 3, 126, 1) 0%, rgba(255, 100, 191, 1) 74%);
   width: 100%;
   height: auto;
 }
 
- .pinkpath2 ul {
+.pinkpath2 ul {
   padding: 30px;
   color: white;
 }
- .pinkpath2 h2 {
 
+.pinkpath2 h2 {
   font-size: 14px;
 }
 
-
- .pinkpath2 img {
+.pinkpath2 img {
   padding-right: 20px;
 }
 
- .iphonebottom {
-  padding-top: 60px;
-  width: 100%;
+.iphonebottom {
+  width: 120px;
   height: auto;
 }
 
- .androidbottom {
-  padding-top: 60px;
-  width: 100%;
+.androidbottom {
+  width: 120px;
   height: auto;
 }
 
- .pink-text {
+.pink-text {
   font-size: 25px;
-  width: 700px;
+  width: 100%;
   color: white;
   text-align: right;
-  padding: 50px;
+  padding: 1.25rem;
 }
-.footer li{
+
+.footer li {
   font-size: 12px;
 }
-footer col{
+
+footer col {
   padding: 0 !important;
 }
+
 /*===== FIXED BACKGROUND IMG =====*/
 
 .fixed-background {
@@ -454,41 +488,172 @@ footer col{
   /*-- Correction for iOS --*/
 }
 
+.indirbirez img {
+  padding: 1rem;
+}
+
 /*-- Emoji Navbar --*/
 
 /*============= FOOTER =============*/
 
 /*============= SOCKET =============*/
+@media (min-width: 1200px) and (max-width:1600px){
+  .container{
+    max-width: 1140px !important;
+  }
+}
+@media (min-width: 1600px){
+  .container{
+    max-width: 1500px;
+  }
+}
 
+.pinkphone{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(50%,-50%);
+  z-index: -5;  
+}
 /*============= MEDIA QUERIES =============*/
-
+.aphoneback{
+  width: 80vw;
+    height: 30vh;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    background-color: #f3f3f3;
+}
 /* Devices under 1199px (xl) */
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 992.98px) {
+  .main-left {
+    display: none;
+  }
+  .c3-inline-img {
+    width: 20vw;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .c1-secondrow {
+    justify-content: center;
+  }
+}
 
 /* Devices under 768px (md) */
 
-@media (max-width: 767.98px) {
+@media (max-width: 767.98px) {}
 
+/* Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
 
+@media only screen and (max-width: 576px) {
+  .c1-cols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .c1-cols img {
+    width: 50%;
+  }
+  .c1-textbox {
+    width: 100%;
+  }
+  .c2-textbox .storebox {
+    flex-direction: row;
+  }
+  .main-left {
+    display: none;
+  }
+  .main-textbox h5 {
+    width: 100%;
+    font-size: 1rem !important;
+  }
+  .main-textbox h4 {
+    width: 100%;
+    font-size: 1.25rem !important;
+  }
+  .main-textbox .storebox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-textbox .storebox img {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .main-background img {
+    width: 60vw;
+  }
+  ul {
+    padding: 0;
+  }
+  .indirbirez {
+    display: none;
+  }
+  .navbar-brand img {
+    width: 50vw;
+    padding-left: 1rem;
+  }
 }
+
+/*small (sm) devices
+@media (min-width: 576px) { ... }*/
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .c1-cols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .c1-cols img {
+    width: 50%;
+  }
+  .navbar-brand img {
+    width: 30vw;
+    padding-left: 1rem;
+  }
+}
+
+/*Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }*/
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .navbar-brand img {
+    width: 20vw;
+    padding-left: 1rem;
+  }
+}
+
+/*Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/*Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+@media only screen and (min-width: 1200px) {}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/*
 
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
 
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+
+/
+
+
 
 =============*/
 
